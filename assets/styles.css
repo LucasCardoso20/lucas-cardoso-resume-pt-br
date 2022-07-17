@@ -1,0 +1,90 @@
+@import url("http://fonts.cdnfonts.com/css/tt-commons");
+
+:root{
+    --font-size-h2: 16px;
+    --font-size-h3: 17px;
+    --font-size-h4: 13px;
+    
+    --font-size-icon: 1.3rem;
+
+    --first-color: rgb(70, 70, 70);
+    --aside-background-color: rgb(0, 96, 141);
+    --white-color: white;
+}
+
+body {
+    background-color: #eff2f9;
+    margin: 0;
+    font-family: "TT Commons", sans-serif;
+}
+
+a{
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "TT Commons", sans-serif;
+    text-align: initial;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 { 
+    text-align: initial;
+    color: var(--first-color);
+    font-size: var(--font-size-h2);
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--first-color);
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
+    text-align: initial;
+    color: var(--first-color);
+    font-size: var(--font-size-h4);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+span {
+    font-weight: 300;
+    color: #878b93;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+.container{
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.container-content{
+    padding: 0 3.5rem 0 3.5rem;
+}
+
+hr{
+    margin: 0.7rem 0;
+}
+
+.title-aside{
+    color: var(--white-color);
+}

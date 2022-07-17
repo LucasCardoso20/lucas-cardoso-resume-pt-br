@@ -1,0 +1,109 @@
+aside {
+    width: 30%;
+    background-color: var(--aside-background-color);
+    color: white;
+}
+
+.title-aside{
+    margin-top: 2rem;
+}
+
+img {
+    height: 150px;
+    border-radius: 100%;
+}
+
+.informations__url{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.skills,
+.languages {
+    margin-top: 2rem;
+}
+
+
+.skill-bar {
+    width: 100%;
+    background-color: rgb(190, 190, 190);
+    height: 5px;
+    position: relative;
+}
+
+.bar {
+    height: 5px;
+    background-color: var(--white-color);
+    position: relative;
+    z-index: 10;
+}
+
+.experienced {
+    width: 80%;
+}
+
+.skillful {
+    width: 70%;
+}
+
+.mid {
+    width: 50%;
+}
+
+.native {
+    width: 100%;
+}
+
+.b2 {
+    width: 80%;
+}
+
+.c1 {
+    width: 90%;
+}
+
+.bunder1 {
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 90%;
+}
+
+.bunder1 span {
+    font-size: 13px;
+    position: absolute;
+    color: white;
+    margin-top: 6px;
+    margin-left: 7px;
+}
+
+.informations__links {
+    text-align: center;
+    margin-top: .7rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.soft-skill-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.soft-skill-container li{
+   
+    background-color: var(--white-color);
+    border-radius: 50px;
+    padding: 1rem;
+}
+
+.soft-skill-container li span{
+    color: var(--aside-background-color);
+    font-size: var(--font-size-h4);
+    text-transform: uppercase;
+    font-weight: bold;
+}

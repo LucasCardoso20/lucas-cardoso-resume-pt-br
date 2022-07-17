@@ -1,0 +1,76 @@
+.main-content{
+    width: 70%;
+    padding-bottom: 1rem;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+
+.name-container ul{
+    display: flex;
+    flex-direction:column;
+    gap: 0.5rem;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.address-and-links-container{
+    padding: 1rem 0;
+}
+
+.address-and-links-container i{
+    font-size: var(--font-size-icon);
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.project-container{
+    margin-top: 2rem;
+}
+
+.project-container li{
+    list-style: inherit;
+}
+
+.project-description{
+    margin-left: 2rem;
+}
+
+.project-description p {
+    margin-left: 0.7rem;
+}
+
+
+.education-container, .personal-values-container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.project-container{
+    display: flex;
+}
+
+.project-details{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.project-details h3{
+    text-align: initial;
+}
+
+.project-description{
+    width: 70%;
+}
